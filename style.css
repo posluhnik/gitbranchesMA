@@ -1,0 +1,25 @@
+body {
+    background-color: black;
+    color: white;
+    margin: 10vw;
+    display: grid;
+    place-items: center;
+}
+
+.cool-animation {
+    width: 400px;
+    height: 400px;
+    background-image: url(https://media1.tenor.com/m/oyWTUndn2tcAAAAd/pen.gif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: center; 
+
+    transition: transform 0.3s ease;
+}
+
+.cool-animation:hover {
+    transform: translateY(-10px);
+}
